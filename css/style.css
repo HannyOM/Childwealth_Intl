@@ -114,6 +114,20 @@
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
     height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand h5{
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 0;
+}
+
+.navbar-toggler{
+    margin: 0;
+    padding: 0;
+}
 }
 
 .navbar-light .navbar-nav .nav-link {
