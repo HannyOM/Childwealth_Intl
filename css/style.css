@@ -42,7 +42,8 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
-    border-radius: 10px;
+    border-radius: 50px;
+    padding: 10px 30px;
 }
 
 .btn.btn-primary,
