@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
-    --light: #F0FBFC;
+    --primary: #800000;
+    --light: #e2c7c7;
     --dark: #181d38;
 }
 
@@ -85,6 +85,10 @@
 }
 
 /*** Navbar ***/
+.custom-text-color {
+    color: #e2c7c7#; 
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
