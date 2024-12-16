@@ -284,6 +284,11 @@
 
 
 /*** Service ***/
+
+.row, .g-4{
+    justify-content: center;
+}
+
 .service-item {
     background: var(--light);
     transition: .5s;
