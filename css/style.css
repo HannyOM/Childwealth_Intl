@@ -46,6 +46,12 @@
     padding: 10px 30px;
 }
 
+.btn.btn-primary{
+    color:#FFFFFF;
+    background-color:#ab5858;
+    border-color:#ab5858
+}
+
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
