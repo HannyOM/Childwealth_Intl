@@ -314,16 +314,6 @@
 }
 
 
-/*** About Us ***/
-@media (max-width: 768px) {
-    #about-us{
-        height: 500px;
-        
-    }
-}
-
-
-
 /*** Categories & Courses ***/
 .category img,
 .course-item img {
