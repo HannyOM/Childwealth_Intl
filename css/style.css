@@ -314,6 +314,15 @@
 }
 
 
+/*** About Us ***/
+@media (max-width: 768px) {
+    .position-relative{
+        height: 500px;
+    }
+}
+
+
+
 /*** Categories & Courses ***/
 .category img,
 .course-item img {
