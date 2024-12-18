@@ -316,8 +316,9 @@
 
 /*** About Us ***/
 @media (max-width: 768px) {
-    .position-relative{
+    #about-us{
         height: 500px;
+        
     }
 }
 
