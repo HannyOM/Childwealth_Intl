@@ -235,22 +235,29 @@
     border-color: var(--primary);
 }
 
-#about-us, .page-header {
+#about-us, .page-header .head{
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/i5.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#admission, .page-header {
+#admission, .page-header .headd{
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/o2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#contact, .page-header {
+#contact-us, .page-header .headdd{
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/o3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#classes, .page-header .headddd{
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/s3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
