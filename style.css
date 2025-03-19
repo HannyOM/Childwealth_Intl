@@ -249,7 +249,7 @@ li::marker{
    color: #fff;
    font-size: 2rem;
    display: none;
-   /* position: relative; */
+   position: relative;
 }
 
 /* .navBar .actionButton{ 
@@ -273,10 +273,10 @@ li::marker{
    overflow: hidden;
    border-radius: 30px;
    position: absolute;
-   top: 70px;
-   right: 7px;
+   top: 90px;
+   right: 4%;
    display: none;
-   scale: 0.8;
+   /* scale: 0.8; */
    transition: 0.5s ease;
 }
 
@@ -371,8 +371,8 @@ li::marker{
    .dropDownMenuLinks{
       display: block;
       /* scale: 0.75; */
-      position: absolute;
-      top: 40px;
+      /* position: absolute; */
+      /* top: 40px; */
       }
 }
 
