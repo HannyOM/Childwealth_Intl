@@ -706,15 +706,20 @@ li::marker{
 
 .testimonialsImage{
    display: flex;
-   width: 30%;
+   width: 20%;
 }
 
 .testimonialsImage i{
-   font-size: 6rem;
+   display: flex;
+   align-items: flex-start;
+}
+
+.testimonialsImage i::before{
+   font-size: 3rem;
 }
 
 .testimonialsText{
-   width: 70%;
+   width: 80%;
    display: flex;
    flex-direction: column;
 }
@@ -730,7 +735,7 @@ li::marker{
 }
 
 .testimonials .row p{
-   /* font-size: 0.75rem; */
+   font-size: 0.85rem;
    color: #777;
    text-align: start;
 }
@@ -752,7 +757,7 @@ li::marker{
    }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
    .testimonials{
       padding-top: 60px;
    }
@@ -764,6 +769,10 @@ li::marker{
 
    .testimonialsImage i{
       font-size: 5rem;
+   }
+
+   .testimonials .row p{
+      font-size: 0.9rem;
    }
 }
 
