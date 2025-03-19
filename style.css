@@ -370,7 +370,7 @@ li::marker{
 
    .dropDownMenuLinks{
       display: block;
-      scale: 0.75;
+      /* scale: 0.75; */
       position: absolute;
       top: 40px;
       }
