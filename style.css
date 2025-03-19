@@ -474,7 +474,10 @@ li::marker{
 
 .aboutUsColumn{
    background-color: rgba(500, 72, 87, 0.1);
-   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   flex-basis: 32%;
+   padding: 15px;
    margin: 20px;
    border-radius: 20px;
    height: auto;
@@ -498,7 +501,7 @@ li::marker{
    margin-top: 10px;
    font-size: 0.85rem;
    color: #777;
-   padding: 5px;
+   /* padding: 5px; */
    text-align: center;
 }
 
@@ -661,7 +664,6 @@ li::marker{
    .aboutUsColumn p{
       font-size: 0.9rem;
    }
-
 }
 
 /* -----ABOUT-US-END----- */
@@ -670,7 +672,7 @@ li::marker{
 /*-----TESTIMONIALS-----*/
 
 .testimonials{
-   width: 100%;
+   width: 90%;
    margin: auto;
    text-align: center;
    padding-top: 80px;
