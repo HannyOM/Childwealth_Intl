@@ -1049,6 +1049,7 @@ form{
    }
 
    .footerContactDetails{
+      display: none;
       padding: 0 0 20px 0
 ;   }
 
