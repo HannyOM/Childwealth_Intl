@@ -496,7 +496,7 @@ li::marker{
 
 .aboutUsColumn p{
    margin-top: 10px;
-   font-size: 1rem;
+   font-size: 0.85rem;
    color: #777;
    padding: 5px;
    text-align: center;
@@ -651,6 +651,13 @@ li::marker{
       width: 100%;
       height: auto;
    }
+}
+
+@media (max-width: 500px) {
+   .aboutUsColumn p{
+      font-size: 0.85rem;
+   }
+
 }
 
 /* -----ABOUT-US-END----- */
