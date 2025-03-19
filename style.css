@@ -398,7 +398,7 @@ li::marker{
    justify-content: center;
    align-items: center;
    text-align: center;
-   padding: 0 200px;
+   padding: 200px;
 }
 
 .headerTextArea h1{
@@ -437,13 +437,13 @@ li::marker{
 
 @media (max-width: 1024px) {
    .headerTextArea{
-      padding: 0px 50px;
+      padding: auto;
    }
 }
 
 @media (max-width: 700px) {
    .headerTextArea{
-      padding: 50px 50px;
+      padding: 90px 50px;
    }
 
    .headerTextArea h1{
