@@ -654,6 +654,10 @@ li::marker{
 }
 
 @media (max-width: 500px) {
+   .aboutUsColumn{
+      padding: 15px;
+   }
+   
    .aboutUsColumn p{
       font-size: 0.85rem;
    }
