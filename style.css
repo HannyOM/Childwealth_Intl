@@ -294,7 +294,7 @@ li::marker{
 .dropDownMenuLinks .dropDownLinks li a{
    color: #fff;
    padding: 10px 0;
-   font-size: 1rem;
+   font-size: 0.9rem;
 }
 
 .dropDownMenuLinks .dropDownLinks li a:active{
@@ -477,7 +477,7 @@ li::marker{
    background-color: rgba(500, 72, 87, 0.1);
    display: flex;
    flex-direction: column;
-   flex-basis: 32%;
+   /* flex-basis: 32%; */
    padding: 15px;
    margin: 20px;
    border-radius: 20px;
@@ -609,7 +609,7 @@ li::marker{
 
 @media (max-width: 1024px) {
    .aboutUs{
-      width: 85%;
+      width: 90%;
       padding-top: 80px;
    }
 
@@ -655,6 +655,10 @@ li::marker{
       width: 100%;
       height: auto;
    }
+
+   .classesColumn{
+      margin: 20px 0 20px 0;
+   }
 }
 
 @media (max-width: 500px) {
@@ -695,7 +699,7 @@ li::marker{
 .testimonialsColumn{
    display: flex;
    flex-basis: 32%;
-   margin: 20px 20px;
+   margin: 20px;
    padding: 15px;
    height: 175px;
    background-color: rgba(500, 72, 87, 0.1);
@@ -754,6 +758,10 @@ li::marker{
 }
 
 @media (max-width: 1024px) {
+   .testimonialsColumn{
+      margin: 20px 0 20px;
+   }
+
    .testimonialsImage{
       display: flex;
       justify-content: center;
@@ -811,7 +819,7 @@ li::marker{
 }
 
 .map{
-   margin: 20px;
+   margin: 20px 0 20px;
 }
 
 .map iframe{
@@ -893,8 +901,12 @@ form{
       width: 100%;
    }
    
+   .detail{
+      margin: 10px 0 30px;
+   }
+
    .form{
-      width: 90%;
+      width: 100%;
       padding: 0;
       margin: auto;
    }
