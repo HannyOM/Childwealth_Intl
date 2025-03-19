@@ -720,19 +720,19 @@ li::marker{
 }
 
 .testimonialsTextTop{
-   height: 60%;
+   height: auto;
+   padding-bottom: 15px;
 }
 
 .testimonialsTextBottom{
-   height: 40%;
+   height: auto;
    padding-bottom: 15px;
 }
 
 .testimonials .row p{
-   font-size: 0.75rem;
+   /* font-size: 0.75rem; */
    color: #777;
    text-align: start;
-   padding-bottom: 5px;
 }
 
 .testimonials .row h5{
