@@ -670,7 +670,7 @@ li::marker{
 /*-----TESTIMONIALS-----*/
 
 .testimonials{
-   width: 90%;
+   width: 100%;
    margin: auto;
    text-align: center;
    padding-top: 80px;
