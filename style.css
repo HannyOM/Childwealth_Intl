@@ -447,6 +447,7 @@ li::marker{
    }
 
    .headerTextArea h1{
+      margin: 90px 0 0;
       font-size: 2rem;
       color: #fff;
    }
