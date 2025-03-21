@@ -1118,7 +1118,7 @@ form{
    padding: 10px 0 20px;
 }
 
-.classesTextOne{
+.aboutUsTextOne{
    padding: 0 0 20px 20px;
 }
 
@@ -1154,6 +1154,10 @@ form{
 }
 
 @media (max-width: 1024px){
+   .aboutUsTextOne{
+      padding: 0 0 20px;
+   }
+   
    .aboutUsStoryOne{
       flex-direction: column;
       padding: 0 0 60px;
