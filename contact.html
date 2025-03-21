@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "4oOecp5qRcWRzfu0D",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!----- HEAD ----->
+    <section class="header">
+        <div class="navBar">
+            <div class="navLogo">
+                <a href="#">
+                    <img src="img/logo-svg.svg">
+                    <h2>Childwealth International School</h2>
+                </a>
+            </div>
+
+            <div class="navLinks">
+                <ul class="links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="admission.html">Admission</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="actionButton">Apply Now</a>
+
+            <i id="toggleMenu" class="fa-solid fa-bars" onclick="dropMenu()"></i>
+        </div>
+
+        <div class="dropDownMenuLinks">
+            <ul class="dropDownLinks">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="admission.html">Admission</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="actionButton">Apply Now</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="headerTextArea">
+            <div class="headerText">
+                <h1>Challenging The Child To Master His World</h1>
+                <p>Inspiring curiosity, creativity and confidence in every learner to reach their full potential</p>
+                <div class="readMoreButton">
+                    <a href="#" class="actionButton">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- ABOUT-US ----->
+    <section class="aboutUs">
+        <!-- <h1 class="poppins-semibold">Our aboutUs</h1>
+        <p class="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum ipsa quam
+            dignissimos doloremque illo
+            hic fugiat aliquam possimus tenetur, cumque repellendus. Dolorum assumenda, facilis provident sunt harum
+            sint eligendi!
+        </p> -->
+
+        <div class="row">
+            <div class="aboutUsColumn">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Skilled Instructors</h3>
+                <p>Learn from passionate, experienced educators dedicated to nurturing the potential every child.</p>
+            </div>
+
+            <div class="aboutUsColumn">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Online Classes</h3>
+                <p>Accessible, interactive learning tailored to your child's pace and schedule coming soon to mobile.
+                </p>
+            </div>
+
+            <div class="aboutUsColumn">
+                <i class="fa-solid fa-house"></i>
+                <h3>Home Assignments</h3>
+                <p>Hands-on activities designed to spark creativity and reinforce classroom learning at home.</p>
+            </div>
+        </div>
+
+        <div class="aboutUsStory">
+            <div class="aboutUsImage">
+                <img class="signBoardImg" src="img/o11.jpg" alt="">
+            </div>
+            <div class="aboutUsText">
+                <h3>About Us</h3>
+                <h4>Welcome to Childweath International School</h4>
+                <p>Established in 2005, our rich tradition of academic excellence and moral integrity nurtured the minds
+                    of our students and shaped the future in a safe, supportive, and inspiring environment.</p>
+                <h4>Our Vision</h4>
+                <p>Our vision is to be a beacon of holistic education that empowers every child to excel academically,
+                    socially, and emotionally, preparing them for the challenges of the 21st century.</p>
+                <h4>Our Mission</h4>
+                <ul>
+                    <li>Providing quality education tailored to each student’s unique potential.</li>
+                    <li>Fostering creativity, critical thinking, and problem-solving skills.</li>
+                    <li>Encouraging values of respect and responsibility to build well-rounded individuals.</li>
+                </ul>
+                <div class="readMoreButton">
+                    <a href="#" class="actionButtonAnother">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ourClasses">
+            <div class="classesText">
+                <h4>Our Classes</h4>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum ipsa quam
+                    dignissimos doloremque illo
+                    hic fugiat aliquam possimus tenetur, cumque repellendus. Dolorum assumenda, facilis provident sunt
+                    harum
+                    sint eligendi!
+                </p> -->
+            </div>
+
+            <div class="row">
+                <div class="classesColumn">
+                    <img src="img/s2.jpg" alt="">
+                    <p>Pre-nursery & Nursery</p>
+                </div>
+
+                <div class="classesColumn">
+                    <img src="img/s7.jpg" alt="">
+                    <p>Primary</p>
+                </div>
+
+                <div class="classesColumn">
+                    <img src="img/s5.jpg" alt="">
+                    <p>Junior Secondary</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- TESTIMONIALS ----->
+    <section class="testimonials">
+        <h3>Testimonials</h3>
+        <h4>What Our parents say about us</h4>
+
+        <div class="row">
+            <div class="testimonialsColumn">
+                <div class="testimonialsImage">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="testimonialsText">
+                    <div class="testimonialsTextTop">
+                        <p>"Since enrolling my daughter, I've seen remarkable improvement in her academic performance
+                            compared to her previous schools."</p>
+                    </div>
+                    <div class="testimonialsTextBottom">
+                        <h5>Parent Name</h5>
+                        <p>PTA Chairman</p>
+                        <div class="testimonialsStar">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonialsColumn">
+                <div class="testimonialsImage">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="testimonialsText">
+                    <div class="testimonialsTextTop">
+                        <p>"This isn't just a place for academics, it's where kids learn to be creative, bold and kind.
+                            My
+                            daughter has grown so much here."</p>
+                    </div>
+                    <div class="testimonialsTextBottom">
+                        <h5>Parent Name</h5>
+                        <p>PTA Vice-Chairman</p>
+                        <div class="testimonialsStar">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonialsColumn">
+                <div class="testimonialsImage">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="testimonialsText">
+                    <div class="testimonialsTextTop">
+                        <p>"I love how this school keeps me updated on everything, whether it's events or just chat
+                            about my child."</p>
+                    </div>
+                    <div class="testimonialsTextBottom">
+                        <h5>Parent Name</h5>
+                        <p>PTA Secretary</p>
+                        <div class="testimonialsStar">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----CONTACT-US----->
+    <section class="contactUs">
+        <h3>Contact Us</h3>
+        <h4>You're welcome to reach out to us👋</h4>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.3757787689256!2d7.4200045999999995!3d10.54973870000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!0.5s0x11b2cabec4f0b9f7%3A0xa7eb118fcc7bc9e5!2s16%20Captain%20Rd%2C%20Abakpa%20800282%2C%20Kaduna!5e0!3m2!0.5sen!2sng!4v1734600110215!5m2!0.5sen!2sng"></iframe>
+        </div>
+
+        <div class="detailsAndForm">
+            <div class="details">
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <h5>No. 16 Captain Rd Off NDA Road Kurmin Mashi</h5>
+                        <p>Kaduna, Nigeria</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <h5>+234 706 124 0920</h5>
+                        <p>Monday to Saturday, 8AM to 4PM</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h5>childwealthschool@gmail.com</h5>
+                        <p>Email us your inquiry</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form">
+                <form action="">
+                    <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address..." required>
+                    <input type="text" id="subject" name="subject" placeholder="Enter your subject of inquiry..."
+                        required>
+                    <textarea rows="8" id="message" name="message" placeholder="Message" required></textarea>
+                    <div class="readMoreButton">
+                        <button type="submit" onclick="sendMail()" class="actionButtonAnother">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-----FOOTER----->
+    <section class="footer">
+        <div class="footerDetails">
+            <div class="footerLogo">
+                <a href="#">
+                    <img src="img/logo-svg.svg">
+                    <h4>Childwealth International School</h4>
+                </a>
+                <p>Challenging the child to master his world</p>
+            </div>
+
+            <div class="footerSocialMedia">
+                <h4>
+                    <u>Connect with us</u>
+                </h4>
+                <div class="socialMediaIcons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="quickLinks">
+                <h4>
+                    <u>Quick Links</u>
+                </h4>
+                <ul>
+                    <li>Admission</li>
+                    <li>Calendar</li>
+                    <li>FAQs & Help</li>
+                </ul>
+            </div>
+
+            <div class="footerContactDetails">
+                <h4>
+                    <u>Contact Us</u>
+                </h4>
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <p>No. 16 Captain Rd Off NDA Road Kurmin Mashi</p>
+                        <p>Kaduna, Nigeria</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <p>+234 706 124 0920</p>
+                        <p>Monday to Saturday, 8AM to 4PM</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <p>childwealthschool@gmail.com</p>
+                        <p>Email us your inquiry</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="acknowledgment">
+            <p>
+                Copyright © 2025 Childwealth International School. All Rights Reserved
+            </p>
+            <p>
+                Designed by <a href="#" class="designer">Hanny Abubakar</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
