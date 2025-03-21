@@ -514,7 +514,7 @@ li::marker{
 .aboutUsStory{
    display: flex;
    justify-content: space-between;
-   padding: 80px 0px 80px 0;
+   padding: 80px 0px;
 }
 
 .aboutUsStory h3{
@@ -1076,4 +1076,92 @@ form{
       text-align: center;
    }
 }
-/*-----FOOTER-END-----*/
+/*----- FOOTER-END -----*/
+
+/*++++++++++++++++ HOME-PAGE-END +++++++++++++++*/
+
+
+
+/*++++++++++++++++ ABOUT-US-PAGE +++++++++++++++*/
+
+/* ----- HEAD ----- */
+.subHeader{
+   display: flex;
+   flex-direction: column;
+   min-height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/s7.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+.subHeaderTextArea{
+   margin: auto;
+}
+   
+.subHeaderTextArea h1{
+   font-size: 3rem;
+   color: #fff;
+}
+/* ----- HEAD-END ----- */
+
+/*----- ABOUT-US -----*/
+.aboutUsOne{
+   width: 90%;
+   margin: auto;
+   padding-top: 100px
+}
+
+.aboutUsOne p {
+   color: #777;
+   padding: 10px 0 20px;
+}
+
+.classesTextOne{
+   padding: 0 0 20px 20px;
+}
+
+.classesDetails{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.aboutUsStoryOne{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 0 80px 0px;
+}
+
+.aboutUsStoryOne h3{
+   padding: 0;
+   color: brown;
+}
+
+.aboutUsStoryOne h4{
+   padding: 20px 0 0;
+}
+
+.aboutUsStoryOne p, li{
+   color: #777;
+   padding: 10px 0 10px;
+}
+
+.aboutUsStoryOne li{
+   margin-left: 20px;
+   font-size: 1rem;
+}
+
+@media (max-width: 1024px){
+   .aboutUsStoryOne{
+      flex-direction: column;
+      padding: 0 0 60px;
+   }
+
+   .classesTextOne{
+      padding: 0;
+      text-align: center;
+   }
+}
+/*----- ABOUT-US-END -----*/
