@@ -1082,7 +1082,9 @@ form{
 
 
 
-/*++++++++++++++++ ABOUT-US-PAGE +++++++++++++++*/
+
+
+/*++++++++++++++++ ABOUT-US, ADMISSION & CONTACT-US PAGE +++++++++++++++*/
 
 /* ----- HEAD ----- */
 .subHeader{
@@ -1173,3 +1175,53 @@ form{
    }
 }
 /*----- ABOUT-US-END -----*/
+
+/*----- ERROR -----*/
+.error{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.errorMessage{
+   text-align: center;
+   padding: 50px 50px;
+}
+
+.errorMessage h1{
+  color: brown;
+  font-size: 5rem;
+}
+
+.errorMessage p{
+   font-size: 3rem;
+ }
+
+.return{
+   text-align: center;
+   padding: 0 0 30px;
+}
+
+.return p{
+   font-size: 1.5rem;
+}
+
+@media (max-width: 500px){
+   .errorMessage h1{
+      font-size: 3rem;
+   }
+
+   .errorMessage p{
+      font-size: 1.5rem;
+   }
+
+   .return p{
+      font-size: 1rem;
+   }
+}
+
+/*----- ERROR-END -----*/
+
+/*++++++++++++++++ ABOUT-US, ADMISSION & CONTACT-US PAGE +++++++++++++++*/
