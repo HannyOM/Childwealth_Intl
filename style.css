@@ -1122,6 +1122,10 @@ form{
    padding: 0 0 20px 20px;
 }
 
+.aboutUsTextOne h4{
+   color: brown;
+}
+
 .classesDetails{
    display: flex;
    flex-direction: column;
