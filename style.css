@@ -824,7 +824,7 @@ li::marker{
 }
 
 .map{
-   margin: 20px 0 20px;
+   margin: 20px;
 }
 
 .map iframe{
@@ -889,6 +889,11 @@ form{
 
 .form button{
    border-width: 0;
+}
+@media (max-width: 1024px){
+   .map{
+      margin: 20px 0 20px;
+   }
 }
 
 @media (max-width: 625px){
