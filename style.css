@@ -1089,20 +1089,9 @@ form{
 
 
 
-/*++++++++++++++++ ABOUT-US, ADMISSION & CONTACT-US PAGE +++++++++++++++*/
+/*++++++++++++++++ ABOUT-US, ADMISSION, CONTACT-US & ERROR PAGE +++++++++++++++*/
 
 /* ----- HEAD ----- */
-.subHeader{
-   display: flex;
-   flex-direction: column;
-   min-height: 50vh;
-   width: 100%;
-   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/s7.jpg");
-   background-position: center;
-   background-size: cover;
-   position: relative;
-}
-
 .subHeaderTextArea{
    margin: auto;
 }
@@ -1114,6 +1103,17 @@ form{
 /* ----- HEAD-END ----- */
 
 /*----- ABOUT-US -----*/
+.subHeaderAboutUs{
+   display: flex;
+   flex-direction: column;
+   min-height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/i5.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
 .aboutUsOne{
    width: 90%;
    margin: auto;
@@ -1181,7 +1181,46 @@ form{
 }
 /*----- ABOUT-US-END -----*/
 
+/*----- ADMISSION -----*/
+.subHeaderAdmission{
+   display: flex;
+   flex-direction: column;
+   min-height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/t2.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+/*----- ADMISSION-END -----*/
+
+/*----- CONTACT-US -----*/
+.subHeaderContactUs{
+   display: flex;
+   flex-direction: column;
+   min-height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/o3.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+/*----- CONTACT-US-END -----*/
+
+
+
 /*----- ERROR -----*/
+.subHeaderError{
+   display: flex;
+   flex-direction: column;
+   min-height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("img/i2.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
 .error{
    width: 90%;
    margin: auto;
@@ -1229,4 +1268,4 @@ form{
 
 /*----- ERROR-END -----*/
 
-/*++++++++++++++++ ABOUT-US, ADMISSION & CONTACT-US PAGE +++++++++++++++*/
+/*++++++++++++++++ ABOUT-US, ADMISSION, CONTACT-US & ERROR PAGE +++++++++++++++*/
